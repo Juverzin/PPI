@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotificAtraso - Seleção</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #fff;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2rem;
+        }
+
+        .btn-custom {
+            background-color: #f6c300;
+            color: #000;
+            font-weight: bold;
+            font-size: 1.3rem;
+            padding: 1rem 2rem;
+            border-radius: 10px;
+            border: 2px solid #333;
+            text-transform: uppercase;
+            width: 220px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: #e5b200;
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background-color: #fff;
+            border-top: 1px solid #ddd;
+        }
+
+    </style>
+</head>
+<body class="bg-light">
+<!-- Rodapé -->
+<div class="container">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <button class="btn btn-link">
+            <img src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png"/>
+        </button>
+        <h1 class="text-center">NotificAtraso</h1>
+        <img src="https://img.icons8.com/ios-filled/50/000000/bell.png"/>
+    </div>
+    
+    <h2>Selecione a opção</h2>
+    
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-custom">Registrar atraso</button>
+        <button class="btn btn-custom">Editar atraso</button>
+        <button class="btn btn-custom">Consultar histórico</button>
+    </div>
+    
+    <footer>© 2024 Instituto Federal Farroupilha</footer>
+</div>
+
+<footer class="text-center text-muted py-3 mt-auto">
+    © 2024 Instituto Federal Farroupilha
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
